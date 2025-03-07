@@ -355,7 +355,7 @@ class analizador:
             except Exception as e:
                 print(
                     f"No se pueden imprimir las tablas de precedencias. Razón: {e}")
-                traceback.print_exc()
+                # traceback.print_exc()
         except Exception as e:
             print(f"No se pueden calcular las funciones f y g. Razón: {e}")
             # traceback.print_exc()
