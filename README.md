@@ -21,10 +21,15 @@ python main.py
 El programa principal ofrece varias opciones interactivas:
 
 `RULE <no-terminal> [<simbolo>]`: Agrega una regla a la gramática.
+
 `INIT <no-terminal>`: Establece el símbolo inicial de la gramática.
+
 `PREC <terminal> <op> <terminal>`: Agrega una precedencia entre terminales.
+
 `BUILD`: Construye el analizador sintáctico.
+
 `PARSE <string>`: Parsea una cadena de entrada.
+
 `EXIT`: Sale del programa.
 
 ## Ejecución de pruebas
